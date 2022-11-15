@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  width: 80vw;
+  position: relative;
+}
+.carousel img {
+  width: inherit;
+}
+.previous, .next {
+  position: absolute;
+  top: 44%;
+  font-size: 50px;
+  padding: 20px;
+  border: 0;
+  opacity: 0;
+}
+.previous {
+  left: 5%;
+}
+.next {
+  right: 5%;
+}
+.next:hover, .previous:hover {
+  opacity: .6;
+}
+
+@media (max-width: 450px) {
+  .next, .previous {
+    font-size: 22px;
+    padding: 5px;
+  }
+}
