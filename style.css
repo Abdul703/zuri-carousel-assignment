@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding 0;
+  padding: 0;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@ body {
   font-size: 50px;
   padding: 20px;
   border: 0;
-  opacity: 0;
+  opacity: .1;
 }
 .previous {
   left: 5%;
@@ -28,7 +28,7 @@ body {
   right: 5%;
 }
 .next:hover, .previous:hover {
-  opacity: .6;
+  opacity: .7;
 }
 
 @media (max-width: 450px) {
